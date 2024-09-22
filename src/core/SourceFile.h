@@ -5,9 +5,9 @@
 #include <unordered_set>
 #include <ctime>
 
-#include "module.h"
-#include "LocalScope.h"
-#include "IndicatorData.h"
+#include "core/module.h"
+#include "core/LocalScope.h"
+#include "core/IndicatorData.h"
 
 class SourceFile : public ASTNode
 {

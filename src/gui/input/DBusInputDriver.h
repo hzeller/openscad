@@ -26,7 +26,7 @@
 #pragma once
 
 #include <QStringList>
-#include "InputDriver.h"
+#include "gui/input/InputDriver.h"
 
 class DBusInputDriver : public InputDriver
 {

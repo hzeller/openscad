@@ -30,8 +30,8 @@
 #include <QTimer>
 #include <QIcon>
 
-#include "InputDriver.h"
-#include "InputEventMapper.h"
+#include "gui/input/InputDriver.h"
+#include "gui/input/InputEventMapper.h"
 
 class MainWindow;
 

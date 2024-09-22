@@ -1,6 +1,6 @@
-#include "InitConfigurator.h"
+#include "gui/InitConfigurator.h"
 #include <QSettings>
-#include "Settings.h"
+#include "gui/Settings.h"
 
 void InitConfigurator::initUpdateCheckBox(const BlockSignals<QCheckBox *>& checkBox, const Settings::SettingsEntryBool& entry)
 {

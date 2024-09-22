@@ -2,8 +2,8 @@
 #include <glib.h>
 #include <vector>
 
-#include "version_check.h"
-#include "PlatformUtils.h"
+#include "utils/version_check.h"
+#include "platform/PlatformUtils.h"
 #include "version.h"
 #include "Feature.h"
 
@@ -12,11 +12,11 @@
 
 #ifndef OPENSCAD_NOGUI
 #include <Qsci/qsciglobal.h>
-#include "input/InputDriverManager.h"
+#include "gui/input/InputDriverManager.h"
 #endif
 
 #ifdef ENABLE_CGAL
-#include "cgal.h"
+#include "geometry/cgal/cgal.h"
 #include <boost/algorithm/string.hpp>
 #if defined(__GNUG__)
 #define GCC_INT_VERSION (__GNUC__ * 10000 + __GNUC_MINOR__ * 100)

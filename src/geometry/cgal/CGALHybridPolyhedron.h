@@ -3,8 +3,8 @@
 
 #include <variant>
 
-#include "cgal.h"
-#include "Geometry.h"
+#include "geometry/cgal/cgal.h"
+#include "geometry/Geometry.h"
 
 class CGAL_Nef_polyhedron;
 class CGALHybridPolyhedron;

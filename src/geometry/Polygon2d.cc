@@ -1,13 +1,13 @@
-#include "Polygon2d.h"
+#include "geometry/Polygon2d.h"
 
 #include <memory>
-#include "printutils.h"
+#include "utils/printutils.h"
 #ifdef ENABLE_MANIFOLD
-#include "manifoldutils.h"
+#include "geometry/manifold/manifoldutils.h"
 #endif
-#include "cgalutils.h"
+#include "geometry/cgal/cgalutils.h"
 #include "Feature.h"
-#include "PolySet.h"
+#include "geometry/PolySet.h"
 
 
 Polygon2d::Polygon2d(Outline2d outline) : sanitized(true) {

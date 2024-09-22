@@ -1,11 +1,11 @@
 #pragma once
 
-#include "cgal.h"
-#include "Geometry.h"
+#include "geometry/cgal/cgal.h"
+#include "geometry/Geometry.h"
 #include <memory>
 #include <string>
 #include <utility>
-#include "linalg.h"
+#include "geometry/linalg.h"
 
 class CGAL_Nef_polyhedron : public Geometry
 {

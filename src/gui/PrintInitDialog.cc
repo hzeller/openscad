@@ -26,8 +26,8 @@
 
 #include <QString>
 
-#include "PrintService.h"
-#include "PrintInitDialog.h"
+#include "gui/PrintService.h"
+#include "gui/PrintInitDialog.h"
 
 PrintInitDialog::PrintInitDialog()
 {

@@ -1,8 +1,8 @@
-#include "OffscreenContextCGL.h"
+#include "glview/OffscreenContextCGL.h"
 
 #include <iostream>
 
-#include "system-gl.h"
+#include "glview/system-gl.h"
 #include <OpenGL/OpenGL.h>
 
 class OffscreenContextCGL : public OffscreenContext {

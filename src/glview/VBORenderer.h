@@ -1,12 +1,12 @@
 #pragma once
 
-#include "Renderer.h"
-#include "system-gl.h"
+#include "glview/Renderer.h"
+#include "glview/system-gl.h"
 #ifdef ENABLE_OPENCSG
 #include <opencsg.h>
 #endif
-#include "CSGNode.h"
-#include "VertexArray.h"
+#include "core/CSGNode.h"
+#include "glview/VertexArray.h"
 #include <unordered_map>
 #include <boost/functional/hash.hpp>
 

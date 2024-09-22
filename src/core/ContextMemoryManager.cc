@@ -28,9 +28,9 @@
 #include <map>
 #include <unordered_set>
 
-#include "Context.h"
-#include "ContextMemoryManager.h"
-#include "Value.h"
+#include "core/Context.h"
+#include "core/ContextMemoryManager.h"
+#include "core/Value.h"
 
 /*
  * The garbage collector needs to know, for each Value, whether it stores

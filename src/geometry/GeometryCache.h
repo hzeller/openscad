@@ -2,7 +2,7 @@
 
 #include "Cache.h"
 #include <memory>
-#include "Geometry.h"
+#include "geometry/Geometry.h"
 
 class GeometryCache
 {

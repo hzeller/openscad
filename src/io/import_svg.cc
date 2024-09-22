@@ -27,13 +27,13 @@
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 
-#include "import.h"
-#include "Polygon2d.h"
-#include "printutils.h"
+#include "io/import.h"
+#include "geometry/Polygon2d.h"
+#include "utils/printutils.h"
 #include "libsvg/libsvg.h"
 #include "libsvg/svgpage.h"
-#include "ClipperUtils.h"
-#include "AST.h"
+#include "geometry/ClipperUtils.h"
+#include "core/AST.h"
 
 namespace {
 

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "node.h"
+#include "core/node.h"
 #include "ext/polyclipping/clipper.hpp"
 
 class OffsetNode : public AbstractPolyNode

@@ -32,7 +32,7 @@
 #ifndef GEOM_H
 #define GEOM_H
 
-#include "mesh.h"
+#include "libtess2/Source/mesh.h"
 
 #ifdef NO_BRANCH_CONDITIONS
 /* MIPS architecture has special instructions to evaluate boolean

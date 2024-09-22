@@ -2,7 +2,7 @@
 
 #include <memory>
 
-#include "OffscreenContext.h"
+#include "glview/OffscreenContext.h"
 
 std::shared_ptr<OffscreenContext> CreateOffscreenContextGLX(
     size_t width, size_t height, size_t majorGLVersion,

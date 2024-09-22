@@ -38,12 +38,12 @@
 #include <cmath>
 #include <boost/format.hpp>
 
-#include "Settings.h"
-#include "PlatformUtils.h"
-#include "HidApiInputDriver.h"
-#include "InputDriverEvent.h"
-#include "InputDriverManager.h"
-#include "printutils.h"
+#include "gui/Settings.h"
+#include "platform/PlatformUtils.h"
+#include "gui/input/HidApiInputDriver.h"
+#include "gui/input/InputDriverEvent.h"
+#include "gui/input/InputDriverManager.h"
+#include "utils/printutils.h"
 
 static constexpr int BUFLEN = 64;
 static constexpr int MAX_LOG_SIZE = 20 * 1024;

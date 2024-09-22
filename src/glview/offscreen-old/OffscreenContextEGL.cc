@@ -29,14 +29,14 @@
 #define EGL_EGLEXT_PROTOTYPES
 #include <EGL/eglext.h>
 
-#include "system-gl.h"
+#include "glview/system-gl.h"
 
 #include <cassert>
 #include <sstream>
 #include <string>
 #include <sys/utsname.h> // for uname
 
-#include "OffscreenContext.h"
+#include "glview/OffscreenContext.h"
 
 namespace {
 

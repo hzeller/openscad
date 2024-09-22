@@ -32,7 +32,7 @@
 #ifndef SWEEP_H
 #define SWEEP_H
 
-#include "mesh.h"
+#include "libtess2/Source/mesh.h"
 
 /* tessComputeInterior( tess ) computes the planar arrangement specified
 * by the given contours, and further subdivides this arrangement
@@ -45,7 +45,7 @@ int tessComputeInterior( TESStesselator *tess );
 
 /* The following is here *only* for access by debugging routines */
 
-#include "dict.h"
+#include "libtess2/Source/dict.h"
 
 /* For each pair of adjacent edges crossing the sweep line, there is
 * an ActiveRegion to represent the region between them.  The active

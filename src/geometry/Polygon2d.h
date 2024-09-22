@@ -1,8 +1,8 @@
 #pragma once
 
 #include <vector>
-#include "Geometry.h"
-#include "linalg.h"
+#include "geometry/Geometry.h"
+#include "geometry/linalg.h"
 #include <numeric>
 
 /*!

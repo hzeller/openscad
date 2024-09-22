@@ -26,7 +26,7 @@
 
 #pragma once
 
-#include "input/InputDriver.h"
+#include "gui/input/InputDriver.h"
 
 class SpaceNavInputDriver : public InputDriver
 {

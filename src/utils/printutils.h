@@ -19,7 +19,7 @@
 #endif
 
 #include <clocale>
-#include "AST.h"
+#include "core/AST.h"
 #include <set>
 
 // It seems standard practice to use underscore for gettext, even though it is reserved.

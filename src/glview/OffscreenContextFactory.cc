@@ -1,10 +1,10 @@
-#include "OffscreenContextFactory.h"
+#include "glview/OffscreenContextFactory.h"
 
-#include "printutils.h"
+#include "utils/printutils.h"
 
 #ifdef __APPLE__
 #include "offscreen-old/OffscreenContextNSOpenGL.h"
-#include "OffscreenContextCGL.h"
+#include "glview/OffscreenContextCGL.h"
 #endif
 #ifdef _WIN32
 #include "offscreen-old/OffscreenContextWGL.h"
@@ -18,7 +18,7 @@
 #include "OffscreenContextGLX.h"
 #endif
 #ifdef NULLGL
-#include "OffscreenContextNULL.h"
+#include "glview/OffscreenContextNULL.h"
 #endif
 
 namespace OffscreenContextFactory {

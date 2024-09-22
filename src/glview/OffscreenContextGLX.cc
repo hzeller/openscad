@@ -6,8 +6,8 @@
 #include <iostream>
 #include <sstream>
 
-#include "scope_guard.hpp"
-#include "printutils.h"
+#include "utils/scope_guard.hpp"
+#include "utils/printutils.h"
 
 namespace {
 

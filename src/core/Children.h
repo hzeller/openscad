@@ -3,8 +3,8 @@
 #include <utility>
 #include <memory>
 
-#include "Context.h"
-#include "LocalScope.h"
+#include "core/Context.h"
+#include "core/LocalScope.h"
 
 class AbstractNode;
 class ScopeContext;

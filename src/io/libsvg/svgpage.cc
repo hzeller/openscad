@@ -25,7 +25,7 @@
 #include <cstdlib>
 #include <iostream>
 
-#include "svgpage.h"
+#include "io/libsvg/svgpage.h"
 
 namespace libsvg {
 

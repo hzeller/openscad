@@ -4,11 +4,11 @@
 #include <boost/functional/hash.hpp>
 #include <utility>
 
-#include "system-gl.h"
-#include "printutils.h"
-#include "linalg.h"
+#include "glview/system-gl.h"
+#include "utils/printutils.h"
+#include "geometry/linalg.h"
 #include "Feature.h"
-#include "VertexState.h"
+#include "glview/VertexState.h"
 
 // Hash function for opengl vertex data.
 template <typename T>

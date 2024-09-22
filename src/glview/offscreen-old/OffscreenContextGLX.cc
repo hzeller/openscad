@@ -37,7 +37,7 @@
 #include "OffscreenContextGLX.h"
 
 
-#include "system-gl.h"
+#include "glview/system-gl.h"
 #include <GL/gl.h>
 #include <GL/glx.h>
 
@@ -46,7 +46,7 @@
 #include <string>
 #include <sys/utsname.h> // for uname
 
-#include "printutils.h"
+#include "utils/printutils.h"
 
 namespace {
 

@@ -25,7 +25,7 @@
 #include <cstdlib>
 #include <iostream>
 
-#include "group.h"
+#include "io/libsvg/group.h"
 
 namespace libsvg {
 

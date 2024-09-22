@@ -21,11 +21,11 @@
 #include <Eigen/Geometry>
 #include <string>
 #include <iostream>
-#include "Camera.h"
-#include "ColorMap.h"
-#include "system-gl.h"
-#include "Selection.h"
-#include "Renderer.h"
+#include "glview/Camera.h"
+#include "glview/ColorMap.h"
+#include "glview/system-gl.h"
+#include "core/Selection.h"
+#include "glview/Renderer.h"
 
 class GLView
 {
