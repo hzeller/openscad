@@ -1,4 +1,6 @@
 #pragma once
+#include <vector>
+#include <string>
 #include "core/node.h"
 
 extern bool python_active;

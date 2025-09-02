@@ -1,5 +1,8 @@
 #include "geometry/cgal/cgalutils.h"
 
+#include <list>
+#include <utility>
+#include <vector>
 #include <memory>
 
 #include <CGAL/Timer.h>

@@ -25,6 +25,7 @@
  */
 #include "io/import.h"
 
+#include <list>
 #include <algorithm>
 #include <cstdint>
 #include <memory>

@@ -3,6 +3,8 @@
 #include "glview/system-gl.h"
 #include "gui/MouseSelector.h"
 
+#include <memory>
+#include <array>
 #include <QImage>
 #include <QMouseEvent>
 #include <QPoint>
